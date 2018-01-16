@@ -55,7 +55,7 @@ document.addEventListener("mousemove", mouseMoveHandler);
 document.addEventListener("mousedown", clickScreen);
 
 /*
-
+document.onmousedown = function () { myScript };
 document.onmousedown = function () { myScript };
 document.addEventListener("click", function (e) {
 	clickScreen(e.clientX);
